@@ -1,0 +1,13 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.header {
+      background-color: #e18686;
+      width: 100%;
+      font-size: larger;
+      padding: 8px;
+      margin-bottom: 90px;
+      text-align: center;
+}
