@@ -1,3 +1,4 @@
+/* Day 2 
 * {
       margin: 0;
       padding: 0;
@@ -10,4 +11,21 @@
       padding: 8px;
       margin-bottom: 90px;
       text-align: center;
+} */
+
+.header{
+      height: 92px;
+      
+      
+}
+img{
+      margin-left: 120px;
+      width: 180px;
+     
+      
+}
+.button{
+      float: right;
+      padding: 20px;
+      
 }

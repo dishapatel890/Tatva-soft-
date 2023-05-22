@@ -3,12 +3,24 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/Register.css'
+import { TextField, Button } from '@mui/material'
+import { AiOutlineSearch } from 'react-icons/ai';
 
 function Register() {
   return (
     <>
       <Header />
-      <div className="register"><h1>Register Component</h1><br />
+
+      <div className="search">
+
+        <TextField label="What are you looking for.." size="small" />
+        <Button variant="contained" color="success" endIcon={<AiOutlineSearch />}>Search</Button>
+        <Button variant="contained" color='error'>Cancel</Button></div>
+     
+      <div className="register">
+        
+        <p>Home : Create an Account</p>
+        <h1>Login or Create an Account</h1><br />
         <Link to='/login'>Login</Link></div>
 
       <Footer />
